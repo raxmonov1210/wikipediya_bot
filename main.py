@@ -7,7 +7,7 @@ wikipedia.set_lang('uz')
 
 from aiogram import Bot, Dispatcher, executor, types
 
-API_TOKEN = '5856105139:AAFuvcVnAhiK1fxKMhmICGMHSXq2VBIXDUE'
+API_TOKEN = 'Bot_token'
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
