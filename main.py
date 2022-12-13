@@ -26,12 +26,6 @@ async def send_welcome(message: types.Message):
 
 @dp.message_handler()
 async def echo(message: types.Message):
-    # try:
-    #     respond = wikipedia.summary(message.text)
-    #     await message.answer(respond)
-    # except:
-    #     await message.answer("Bu mavzuga oid maqola topilmadi")
-
     try:
         res = wikipedia.summary(message.text)
         await message.answer(res)
